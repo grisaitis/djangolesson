@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Members List:</title>
+	</head>
+	<body>
+		{% for m in members %}
+			{{ m }} --- study: {{ m.study }} <br />
+		{% endfor %}
+	</body>
+</html>
